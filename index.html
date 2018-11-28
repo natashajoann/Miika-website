@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+  <title> Nash.Jo Eats </title>
+  <!-- These are my css links, always put your own css last -->
+  <!-- GOOGLE FONTS -->
+  <!-- viewport  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- GRIDLEX -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+  <!-- lightbox -->
+  <link href="path/to/lightbox.css" rel="stylesheet">
+  <!-- my css file -->
+  <link href="/main.css" rel="stylesheet">
+</head>
+
+<body>
+<!-- NAV/HEADER SECTION -->
+<header class="grid nav-menu">
+  <div class="col-4"><h1> MIIKA KIVILO</h1> </div>
+
+
+<!-- TO DO: make it so other pages have different nav bar - no about, features, or contact -->
+  <div class="col-8 home-menu">
+    <a href="#about">About</a>
+    <div class="dropdown">
+      <p class="dropbtn">Art</p>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+    <a href="#featured">Featured</a>
+    <a href="#contact">Contact</a>
+  </div>
+</header>
+
+<!-- - - - - - - - - - - -  Slideshow  - - - - - - - -  - - -->
+<!-- STILL NEED TO ADD IN JAVAS -->
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <img src="img1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img1.jpg" style="width:100%">
+  </div>
+</div>
+
+<!--  - - - - - - - - - - ABOUT ME SECTION  - - - - - - - -  -->
+
+
+
+
+
+<!--  - -  - - - - - - PARALAX  - - - - - - - - - - -->
+<section class="paralax"></section>
+
+<!-- - - - - - - -  - - -  FEATURED SECTION - - - - - - - - -  - - -->
+<!-- NEED TO RUN JEKYLL -->
+<section class="grid featured centered">
+  <div class="col-12"><h2>FEATURED</h2></div>
+
+  {% for post in site.posts limit:6 %}
+    <
+
+
+<script src="path/to/lightbox-plus-jquery.js"></script>
+</body>
+</html>
