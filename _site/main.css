@@ -58,4 +58,26 @@ img {
   background-position: center;
 }
 
-/* UNIVERSAL STYLES */
+#cover-img{
+  width:100%;
+}
+
+/* About Me */
+.aboutbox{
+  width:80%;
+  margin:auto;
+}
+
+.text-box{
+  background-color:rgba(250,231,231,0.7);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left:3rem;
+  margin-right:-3rem;
+  z-index:2;
+}
+
+/* LIGHTBOX GALLERY */
+.gallery-image{
+  height:10vh;
+}

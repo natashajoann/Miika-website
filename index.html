@@ -1,19 +1,24 @@
-<!DOCTYPE html>
-<head>
-  <title> Nash.Jo Eats </title>
-  <!-- These are my css links, always put your own css last -->
-  <!-- GOOGLE FONTS -->
-  <!-- viewport  -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- GRIDLEX -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
-  <!-- lightbox -->
-  <link href="/lightbox.min.css" rel="stylesheet">
-  <!-- my css file -->
-  <link href="/main.css" rel="stylesheet">
-</head>
-
-<body>
+---
+layout: default
+title: Miika Kivilo Art
+featured-gallery:
+  - featured_image: /images/miikaart1.png
+    heading: Inside and Closer Instalation
+  - featured_image: /images/miikaart3.png
+    heading: Inside and Closer Instalation
+  - featured_image: /images/miikaart5.png
+    heading: Beer Money Exhibit
+  - featured_image: /images/miikaart6.jpg
+    heading: Ceramic Face
+  - featured_image: /images/miikaart1.png
+    heading: Inside and Closer Instalation
+  - featured_image: /images/miikaart3.png
+    heading: Inside and Closer Instalation
+  - featured_image: /images/miikaart5.png
+    heading: Beer Money Exhibit
+  - featured_image: /images/miikaart6.jpg
+    heading: Ceramic Face
+---
 <!-- NAV/HEADER SECTION -->
 <header class="grid nav-menu">
   <div class="col-4"><h1> MIIKA KIVILO</h1> </div>
@@ -38,6 +43,7 @@
 <!-- - - - - - - - - - - -  Slideshow  - - - - - - - -  - - -->
 <!-- STILL NEED TO ADD IN JAVAS -->
 <div class="slideshow-container">
+  <img src="/images/miikaart7.jpg" id="cover-img"/>
 
   <!-- <div class="mySlides fade">
     <img src="img1.jpg" style="width:100%">
@@ -53,37 +59,57 @@
 </div>
 
 <!--  - - - - - - - - - - ABOUT ME SECTION  - - - - - - - -  -->
+<section class="grid aboutbox">
+  <h2 class="col-12 centered"> About Me </h2>
+  <div class="col-6 text-box">
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus repellat beatae dolores impedit nobis! Distinctio, non ipsa officia provident dicta ratione expedita porro assumenda eligendi numquam quod recusandae perspiciatis officiis.</p>
+  </div>
 
+  <div class="col-6 about-image">
+    <img src="/images/Miikaface.png"/>
+  </div>
 
-
-
+</section>
 
 <!--  - -  - - - - - - PARALAX  - - - - - - - - - - -->
 <section class="paralax"></section>
 
 <!-- - - - - - - -  - - -  FEATURED SECTION - - - - - - - - -  - - -->
-<!-- NEED TO RUN JEKYLL -->
-<!-- NEED TO ADD GRIDLEX SOMEHOW -->
-<div class="grid lightbox-gallery">
-<a href="/images/miikaart1.png" data-lightbox="image-1">
-  <div class="col-4 feature-img1" >
-    <img src="/images/miikaart1.png">
-  </div>
-</a>
 
-<a href="/images/miikaart2.png" data-lightbox="image-2">
-  <div class="col-4 feature-img2" >
-    <img src="/images/miikaart2.png">
-  </div>
-</a>
+<section class="featured-gallery grid" id="featured">
+  <h2 class="col-12 section-heading"> Featured</h2>
 
-<a href="/images/miikaart5.png" data-lightbox="image-5">
-  <div class="col-4 feature-img5" >
-    <img src="/images/miikaart5.png">
-  </div>
-</a>
-</div>
+  {% for item in page.featured-gallery limit:6 %}
 
-<script src="/lightbox-plus-jquery.min.js"></script>
+  <div class="col-4_xs-12-middle gallery-item">
+    <a href="{{item.featured_image}}" data-lightbox="featured" data-title="{{item.heading}}">
+      <div style="background-image:url({{item.featured_image}})" class="gallery-image"></div>
+    </a>
+  </div>
+
+  {% endfor %}
+
+  {% for item in page.featured-gallery offset:8 %}
+
+  <a href="{{item.featured_image}}" data-lightbox="featured" data-title="{{item.heading}}"></a>
+
+  {% endfor %}
+</section>
+
+<!--  - -  - - - - - - PARALAX  - - - - - - - - - - -->
+<section class="paralax"></section>
+
+<!-- CONTACT FORM -->
+<section class="grid">
+  <div class="form centered col-6_sm-12">
+    <h3> Want to collaborate? Send me a message...</h3>
+    <form class="contact-form">
+      <input type="email" name="_replyto" class="contact-input" placeholder="Your Email"></input>
+      <textarea placeholder="Your Message"></textarea>
+      <input type="submit" value="Submit" class="contact-button"></input>
+    </form>
+  </div>
+</section>
+
 </body>
 </html>
