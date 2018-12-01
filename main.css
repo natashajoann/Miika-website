@@ -58,14 +58,87 @@ img {
   background-position: center;
 }
 
+[class*=col-], [class*=col_], [class~=col], [class*=grid-], [class*=grid_], [class~=grid], [class*=col-], [class*=col_], [class~=col] [class*=grid-], [class*=grid_], [class~=grid]{
+  padding:0;
+  margin:0;
+}
+
+
+/* HEADER  */
+.nav-menu{
+  padding: 30px;
+}
+h1{
+  font-size: 45px;
+  width:100%;
+}
+
+.home-menu{
+  text-align:right;
+}
+
+.home-menu a, .dropdown{
+  text-decoration:none;
+  padding:1rem 5%;
+  font-size:20px;
+  color: rgb(60,60,60);
+  border-bottom:2px solid white;
+  transition: 0.5s;
+}
+
+.home-menu a:hover{
+  color:rgb(90,90,90);
+  border-bottom:2px solid rgb(90,90,90);
+}
+
+/* nav menu */
+
+.dropbtn{
+
+}
+
+.dropdown{
+  position:relative;
+  display:inline-block;
+}
+
+.dropdown-content{
+  display:none;
+  position:absolute;
+  background-color:white;
+  text-align:center;
+  min-width:160px;
+  box-shadow: 0px 8px 16px 0px; rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a{
+  color:black;
+  padding: 10px 10px;
+  text-decoration:none;
+  display:block;
+  margin:auto;
+  width:80%;
+}
+
+.dropdown:hover .dropdown-content{
+  display:block;
+}
+
+
 #cover-img{
   width:100%;
+  height:88vh;
+  background-size: cover;
+    background-position: center;
 }
 
 /* About Me */
 .aboutbox{
-  width:80%;
   margin:auto;
+  padding:2rem;
+  padding-right:4.5rem;
+  height:100vh;
 }
 
 .text-box{
@@ -75,9 +148,101 @@ img {
   margin-left:3rem;
   margin-right:-3rem;
   z-index:2;
+  padding:2rem;
+}
+
+.section-heading{
+  font-size:25px;
+}
+/* ABOUT ME FADES */
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
 }
 
 /* LIGHTBOX GALLERY */
 .gallery-image{
   height:10vh;
+}
+
+/* FIXED BACKGROUND */
+.paralax1{
+  background-image: url("/images/miikaart3.png");
+  min-height:30vh;
+  max-height:400px;
+  background-attachment:fixed;
+  background-position: top left;
+  background-size:cover;
+  padding-bottom:25%;
+}
+
+.paralax1 section{
+  height:30vh;
+}
+
+.paralax2{
+  background-image: url("/images/miikaart6.jpg");
+  min-height:30vh;
+  max-height:400px;
+  background-attachment:fixed;
+  background-position: top left;
+  background-size:cover;
+  padding-bottom:25%;
+}
+
+.paralax2 section{
+  height:30vh;
+}
+
+/* Featured */
+
+.featured-gallery section{
+  padding:5%;
+}
+
+.gallery-item{
+  padding:10px;
+  height:7vh;
+}
+
+/* Media Queries */
+@media (max-width: 768px){
+  .home-menu a, .dropdown{
+    text-align:right;
+    padding:0px;
+    display:block;
+  }
 }

@@ -19,25 +19,35 @@ featured-gallery:
   - featured_image: /images/miikaart6.jpg
     heading: Ceramic Face
 ---
+
 <!-- NAV/HEADER SECTION -->
 <header class="grid nav-menu">
-  <div class="col-4"><h1> MIIKA KIVILO</h1> </div>
+  <div class="col-5 title"><h1> MIIKA KIVILO</h1> </div>
+
+
 
 
 <!-- TO DO: make it so other pages have different nav bar - no about, features, or contact -->
-  <div class="col-8 home-menu">
+
+<!-- TO DO: mobile-responsiveness- have them appear on the left aka media queries  -->
+
+  <div class="col-7 home-menu">
     <a href="#about">About</a>
     <div class="dropdown">
       <p class="dropbtn">Art</p>
       <div class="dropdown-content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
+        <a href="#">Art Instalations</a>
+        <a href="#">Ceramics</a>
+        <a href="#">Painting</a>
+        <a hfref="#">Drawing</a>
+        <a href="#">Photography</a>
+        <a href="#">Make-up</a>
       </div>
     </div>
     <a href="#featured">Featured</a>
     <a href="#contact">Contact</a>
   </div>
+
 </header>
 
 <!-- - - - - - - - - - - -  Slideshow  - - - - - - - -  - - -->
@@ -58,26 +68,26 @@ featured-gallery:
   </div> -->
 </div>
 
-<!--  - - - - - - - - - - ABOUT ME SECTION  - - - - - - - -  -->
-<section class="grid aboutbox">
-  <h2 class="col-12 centered"> About Me </h2>
-  <div class="col-6 text-box">
-    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus repellat beatae dolores impedit nobis! Distinctio, non ipsa officia provident dicta ratione expedita porro assumenda eligendi numquam quod recusandae perspiciatis officiis.</p>
+<!--  - - - - - - - - - - ABOUT ME SECTION  - - - - - FIX: FADES -->
+<section class="grid aboutbox" id="about">
+  <div class="col-12 centered section-heading"> <h2> About Me </h2></div>
+  <div class="col-6 text-box animated fadeInLeft">
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus repellat beatae dolores impedit nobis! Distinctio, non ipsa officia provident dicta ratione expedita porro assumenda eligendi numquam quod recusandae perspiciatis officiis.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
   </div>
 
-  <div class="col-6 about-image">
+  <div class="col-6 about-image animated fadeInRight">
     <img src="/images/Miikaface.png"/>
   </div>
 
 </section>
 
 <!--  - -  - - - - - - PARALAX  - - - - - - - - - - -->
-<section class="paralax"></section>
+<section class="paralax1"></section>
 
 <!-- - - - - - - -  - - -  FEATURED SECTION - - - - - - - - -  - - -->
 
 <section class="featured-gallery grid" id="featured">
-  <h2 class="col-12 section-heading"> Featured</h2>
+  <div class="col-12 section-heading centered"> <h2> Featured</h2></div>
 
   {% for item in page.featured-gallery limit:6 %}
 
@@ -97,7 +107,7 @@ featured-gallery:
 </section>
 
 <!--  - -  - - - - - - PARALAX  - - - - - - - - - - -->
-<section class="paralax"></section>
+<section class="paralax2"></section>
 
 <!-- CONTACT FORM -->
 <section class="grid">
