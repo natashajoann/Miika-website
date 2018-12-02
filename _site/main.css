@@ -193,16 +193,11 @@ h1{
   animation-name: fadeInRight;
 }
 
-/* LIGHTBOX GALLERY */
-.gallery-image{
-  height:10vh;
-}
+
 
 /* FIXED BACKGROUND */
 .paralax1{
   background-image: url("/images/miikaart3.png");
-  min-height:30vh;
-  max-height:400px;
   background-attachment:fixed;
   background-position: top left;
   background-size:cover;
@@ -210,13 +205,11 @@ h1{
 }
 
 .paralax1 section{
-  height:30vh;
+  /* height:30vh; */
 }
 
 .paralax2{
   background-image: url("/images/miikaart6.jpg");
-  min-height:30vh;
-  max-height:400px;
   background-attachment:fixed;
   background-position: top left;
   background-size:cover;
@@ -224,10 +217,14 @@ h1{
 }
 
 .paralax2 section{
-  height:30vh;
+  /* height:30vh; */
 }
 
-/* Featured */
+
+/* LIGHTBOX GALLERY */
+.gallery-image{
+  height:10vh;
+}
 
 .featured-gallery{
   padding:2rem;
@@ -265,7 +262,6 @@ h1{
 }
 
 
-
 /* contact */
 .contact{
   padding:5%;
@@ -278,4 +274,8 @@ h1{
     padding:0px;
     display:block;
   }
+  .about-image{
+    margin-left:-1.5rem;
+    margin-top:-3.5rem;
+}
 }
