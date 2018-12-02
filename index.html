@@ -2,7 +2,7 @@
 layout: default
 title: Miika Kivilo Art
 featured-gallery:
-  - featured_image: /images/miikaart1.png
+  - featured_image: /images/miikaart7.jpg
     heading: Inside and Closer Instalation
   - featured_image: /images/miikaart3.png
     heading: Inside and Closer Instalation
@@ -10,11 +10,11 @@ featured-gallery:
     heading: Beer Money Exhibit
   - featured_image: /images/miikaart6.jpg
     heading: Ceramic Face
-  - featured_image: /images/miikaart1.png
+  - featured_image: /images/miikaart7.jpg
     heading: Inside and Closer Instalation
-  - featured_image: /images/miikaart3.png
+  - featured_image: /images/miikaart2.png
     heading: Inside and Closer Instalation
-  - featured_image: /images/miikaart5.png
+  - featured_image: /images/miikaart4.png
     heading: Beer Money Exhibit
   - featured_image: /images/miikaart6.jpg
     heading: Ceramic Face
@@ -68,6 +68,7 @@ featured-gallery:
   </div> -->
 </div>
 
+
 <!--  - - - - - - - - - - ABOUT ME SECTION  - - - - - FIX: FADES -->
 <section class="grid aboutbox" id="about">
   <div class="col-12 centered section-heading"> <h2> About Me </h2></div>
@@ -93,7 +94,9 @@ featured-gallery:
 
   <div class="col-4_xs-12-middle gallery-item">
     <a href="{{item.featured_image}}" data-lightbox="featured" data-title="{{item.heading}}">
-      <div style="background-image:url({{item.featured_image}})" class="gallery-image"></div>
+      <div style="background-image:url({{item.featured_image}})" class="gallery-image">
+        <div class="overlay"></div>
+      </div>
     </a>
   </div>
 
@@ -107,10 +110,11 @@ featured-gallery:
 </section>
 
 <!--  - -  - - - - - - PARALAX  - - - - - - - - - - -->
-<section class="paralax2"></section>
+<!-- <section class="paralax2"></section> -->
+
 
 <!-- CONTACT FORM -->
-<section class="grid">
+<section class="grid contact">
   <div class="form centered col-6_sm-12">
     <h3> Want to collaborate? Send me a message...</h3>
     <form class="contact-form">
@@ -120,6 +124,3 @@ featured-gallery:
     </form>
   </div>
 </section>
-
-</body>
-</html>

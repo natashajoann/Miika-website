@@ -136,9 +136,8 @@ h1{
 /* About Me */
 .aboutbox{
   margin:auto;
-  padding:2rem;
-  padding-right:4.5rem;
-  height:100vh;
+  padding:5%;
+  padding-right:11%;
 }
 
 .text-box{
@@ -153,6 +152,7 @@ h1{
 
 .section-heading{
   font-size:25px;
+  padding-bottom:5%;
 }
 /* ABOUT ME FADES */
 @keyframes fadeInLeft {
@@ -229,13 +229,46 @@ h1{
 
 /* Featured */
 
-.featured-gallery section{
-  padding:5%;
+.featured-gallery{
+  padding:2rem;
 }
 
 .gallery-item{
-  padding:10px;
-  height:7vh;
+  /* min-height: 29vw; */
+  padding:15px;
+  padding-top:0;
+  padding-bottom:30px;
+}
+
+
+.gallery-image{
+  padding:40%;
+  background-size: cover;
+  background-position: center;
+  position:relative;
+}
+
+.overlay{
+  background-color: rgba(250,250,250,0.5);
+  opacity:0;
+  height:100%;
+  width:100%;
+  z-index:3;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.overlay:hover{
+  opacity:1;
+  transition: all 0.5s;
+}
+
+
+
+/* contact */
+.contact{
+  padding:5%;
 }
 
 /* Media Queries */
