@@ -1,0 +1,61 @@
+---
+layout: art-gallery
+title: Miika Kivilo|Paintings
+featured-gallery:
+  - featured_image: /images/miikaart7.jpg
+    heading: Inside and Closer Instalation
+  - featured_image: /images/miikaart3.png
+    heading: Inside and Closer Instalation
+  - featured_image: /images/miikaart5.png
+    heading: Beer Money Exhibit
+  - featured_image: /images/miikaart6.jpg
+    heading: Ceramic Face
+  - featured_image: /images/miikaart1.png
+    heading: Inside and Closer Instalation
+  - featured_image: /images/miikaart2.png
+    heading: Inside and Closer Instalation
+  - featured_image: /images/miikaart4.png
+    heading: Beer Money Exhibit
+  - featured_image: /images/miikaart7.jpg
+    heading: Ceramic Face
+  - featured_image: /images/miikaart7.jpg
+    heading: Inside and Closer Instalation
+  - featured_image: /images/miikaart3.png
+    heading: Inside and Closer Instalation
+  - featured_image: /images/miikaart5.png
+    heading: Beer Money Exhibit
+  - featured_image: /images/miikaart6.jpg
+    heading: Ceramic Face
+  - featured_image: /images/miikaart1.png
+    heading: Inside and Closer Instalation
+  - featured_image: /images/miikaart2.png
+    heading: Inside and Closer Instalation
+  - featured_image: /images/miikaart4.png
+    heading: Beer Money Exhibit
+  - featured_image: /images/miikaart7.jpg
+    heading: Ceramic Face
+---
+
+
+<section class="featured-gallery grid" id="featured">
+  <div class="col-12 section-heading centered"> <h3> featured</h3></div>
+
+  {% for item in page.featured-gallery %}
+
+  <div class="col-4_xs-12-middle gallery-item">
+    <a href="{{item.featured_image}}" data-lightbox="featured" data-title="{{item.heading}}">
+      <div style="background-image:url({{item.featured_image}})" class="gallery-image">
+        <div class="overlay"></div>
+      </div>
+    </a>
+    <p> {{item.heading}}</p>
+  </div>
+
+  {% endfor %}
+
+  {% for item in page.featured-gallery offset:8 %}
+
+  <a href="{{item.featured_image}}" data-lightbox="featured" data-title="{{item.heading}}"></a>
+
+  {% endfor %}
+</section>

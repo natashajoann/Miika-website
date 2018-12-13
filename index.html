@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Miika Kivilo Art
-featured-gallery:
+<!-- featured-gallery:
   - featured_image: /images/miikaart7.jpg
     heading: Inside and Closer Instalation
   - featured_image: /images/miikaart3.png
@@ -10,19 +10,19 @@ featured-gallery:
     heading: Beer Money Exhibit
   - featured_image: /images/miikaart6.jpg
     heading: Ceramic Face
-  - featured_image: /images/miikaart7.jpg
+  - featured_image: /images/miikaart1.png
     heading: Inside and Closer Instalation
   - featured_image: /images/miikaart2.png
     heading: Inside and Closer Instalation
   - featured_image: /images/miikaart4.png
     heading: Beer Money Exhibit
-  - featured_image: /images/miikaart6.jpg
-    heading: Ceramic Face
+  - featured_image: /images/miikaart7.jpg
+    heading: Ceramic Face -->
 ---
 
 <!-- NAV/HEADER SECTION -->
 <header class="grid nav-menu">
-  <div class="col-5 title"><h1> MIIKA KIVILO</h1> </div>
+  <div class="col-5 title"> <a href="/"> MIIKA KIVILO </a> </div>
 
 
 
@@ -32,20 +32,17 @@ featured-gallery:
 <!-- TO DO: mobile-responsiveness- have them appear on the left aka media queries  -->
 
   <div class="col-7 home-menu">
-    <a href="#about">About</a>
+    <a href="#about">about</a>
     <div class="dropdown">
-      <p class="dropbtn">Art</p>
+      <div class="dropbtn">art</div>
       <div class="dropdown-content">
-        <a href="#">Art Instalations</a>
-        <a href="#">Ceramics</a>
-        <a href="#">Painting</a>
-        <a hfref="#">Drawing</a>
-        <a href="#">Photography</a>
-        <a href="#">Make-up</a>
+        <a href="/instalations">art instalations</a>
+        <a href="/painting">painting</a>
+        <a href="/makeup">make-up</a>
       </div>
     </div>
-    <a href="#featured">Featured</a>
-    <a href="#contact">Contact</a>
+    <!-- <a href="#featured">Featured</a> -->
+    <a href="#contact">contact</a>
   </div>
 
 </header>
@@ -53,27 +50,27 @@ featured-gallery:
 <!-- - - - - - - - - - - -  Slideshow  - - - - - - - -  - - -->
 <!-- STILL NEED TO ADD IN JAVAS -->
 <div class="slideshow-container">
-  <img src="/images/miikaart7.jpg" id="cover-img"/>
 
-  <!-- <div class="mySlides fade">
-    <img src="img1.jpg" style="width:100%">
+
+  <div class="mySlides fade">
+    <img src="/images/miikaart7.jpg" style="width:100%">
   </div>
 
   <div class="mySlides fade">
-    <img src="img1.jpg" style="width:100%">
+    <img src="/images/miikaart1.png" style="width:100%">
   </div>
 
   <div class="mySlides fade">
-    <img src="img1.jpg" style="width:100%">
-  </div> -->
+    <img src="images/miikaart5.png" style="width:100%">
+  </div>
 </div>
 
 
 <!--  - - - - - - - - - - ABOUT ME SECTION  - - - - - FIX: FADES -->
 <section class="grid aboutbox" id="about">
-  <div class="col-12 centered section-heading"> <h2> About Me </h2></div>
+  <div class="col-12 centered section-heading"> <h3> about me </h3></div>
   <div class="col-6_sm-12 text-box animated fadeInLeft">
-    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus repellat beatae dolores impedit nobis! Distinctio, non ipsa officia provident dicta ratione expedita porro assumenda eligendi numquam quod recusandae perspiciatis officiis.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus repellat beatae dolores impedit nobis! Distinctio, non ipsa officia provident dicta ratione expedita porro assumenda eligendi numquam quod recusandae perspiciatis officiis.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
   </div>
 
   <div class="col-6_sm-12 about-image animated fadeInRight">
@@ -87,7 +84,7 @@ featured-gallery:
 
 <!-- - - - - - - -  - - -  FEATURED SECTION - - - - - - - - -  - - -->
 
-<section class="featured-gallery grid" id="featured">
+<!-- <section class="featured-gallery grid" id="featured">
   <div class="col-12 section-heading centered"> <h2> Featured</h2></div>
 
   {% for item in page.featured-gallery limit:6 %}
@@ -107,20 +104,7 @@ featured-gallery:
   <a href="{{item.featured_image}}" data-lightbox="featured" data-title="{{item.heading}}"></a>
 
   {% endfor %}
-</section>
+</section> -->
 
 <!--  - -  - - - - - - PARALAX  - - - - - - - - - - -->
 <!-- <section class="paralax2"></section> -->
-
-
-<!-- CONTACT FORM -->
-<section class="grid contact">
-  <div class="form centered col-6_sm-12">
-    <h3> Want to collaborate? Send me a message...</h3>
-    <form class="contact-form">
-      <input type="email" name="_replyto" class="contact-input" placeholder="Your Email"></input>
-      <textarea placeholder="Your Message"></textarea>
-      <input type="submit" value="Submit" class="contact-button"></input>
-    </form>
-  </div>
-</section>
