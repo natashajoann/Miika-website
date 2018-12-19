@@ -31,6 +31,11 @@ img {
 
 }
 
+a{
+  text-decoration:none;
+  color: rgb(60, 60, 60)
+}
+
 /* ---- GENERAL HELPER CLASSES --------------------------- */
 .tall         { min-height:100vh; }
 .med-height   { min-height: 50vh; }
@@ -216,7 +221,7 @@ body{
   background-attachment:fixed;
   background-position: top left;
   background-size:cover;
-  padding-bottom:20%;
+  padding-bottom:20px;
 }
 
 .paralax1 section{
@@ -228,13 +233,46 @@ body{
   background-attachment:fixed;
   background-position: top left;
   background-size:cover;
-  padding-bottom:15%;
+  padding-bottom:20px;
 }
 
 .paralax2 section{
   /* height:30vh; */
 }
 
+.social-media{
+  position:absolute;
+  top:235%;
+  width:100%;
+  text-align:center;
+  z-index:5;
+}
+
+.social-icon a{
+  background-color:white;
+  padding:5px;
+  border-radius:5px;
+  color:#442253;
+  font-size:30px;
+}
+
+.fa{
+  font-size:20px;
+}
+
+.footer-text{
+  margin:auto;
+  margin-top:230px;
+  padding:9px;
+  background-color:white;
+}
+
+.legal-text{
+  padding:7px;
+}
+.footer-icons{
+  text-align:center;
+}
 
 /* LIGHTBOX GALLERY */
 .gallery-image{
@@ -327,7 +365,7 @@ textarea{
 
 /* Media Queries */
 @media (max-width: 768px){
-  .home-menu a, .dropdown{
+  .home-menu a {
     text-align:right;
     padding:0;
     padding-top:8px;
@@ -337,7 +375,7 @@ textarea{
   .home-menu{
     padding:0;
     display:block;
-
+    padding: 0 2rem;
   }
   .about-image{
     margin-left:-2.5rem;
