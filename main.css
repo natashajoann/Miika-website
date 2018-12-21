@@ -122,28 +122,29 @@ body{
 .slide1{
   background-image: url("/images/miikaart7.jpg");
   width:100vw;
-  height: 80vh;
+  height: 89vh;
   background-position:center;
+  background-size:cover;
 }
 
 .slide2{
   background-image: url("/images/miikaart1.png");
   width:100vw;
-  height: 80vh;
+  height: 89vh;
   background-position:center;
+  background-size:cover;
 }
 
 .slide3{
   background-image: url("/images/miikaart5.png");
   width:100vw;
-  height: 80vh;
+  height: 89vh;
   background-position:center;
+  background-size:cover;
 }
 
 .mySlides{
   display:none;
-  max-height: 100%;
-  max-width:100%;
 }
 
 .text{
@@ -206,17 +207,6 @@ body{
   padding-bottom:20px;
 }
 
-.paralax1 section{
-  /* height:30vh; */
-}
-
-.paralax2{
-  background-image: url("/images/miikaart6.jpg");
-  background-attachment:fixed;
-  background-position: top left;
-  background-size:cover;
-  padding-bottom:20px;
-}
 
 
 
@@ -352,18 +342,26 @@ textarea{
     display:block;
   }
 
+  .slide1, .slide2, .slide3{
+    height:75vh;
+  }
+
   .home-menu{
     padding:0;
     display:block;
     padding: 0 2rem;
   }
+
   .about-image{
-    margin-left:-2.5rem;
-    margin-top:-3.5rem;
+    margin:auto;
 }
 
+  .aboutbox{
+    background-color:rgba(250,231,231);
+    padding:5%;
+  }
   .title{
-    padding-left:0;
+    padding-left:1rem;
   }
 
   .title a{
@@ -371,8 +369,7 @@ textarea{
   }
 
   .text-box{
-    margin-left:1.2rem;
-    margin-right:-1.2rem;
+    margin:auto;
   }
 
   header{
@@ -385,14 +382,8 @@ textarea{
 
   .featured-gallery{
     padding: 0;
-    padding-top:9rem;
+    padding-top:3rem;
   }
-
-.contact-form{
-  margin-left:2rem;
-}
-
-
 
   .gallery-item{
     padding:0;
