@@ -204,6 +204,16 @@ body{
   padding-bottom:5%;
 }
 
+.text-box{
+  position:relative;
+}
+
+.text-box span{
+  position: absolute;
+   bottom: 0;
+   right: 0;
+}
+
 /* FIXED BACKGROUND */
 .paralax1{
   background-image: url("/images/miikaart3.png");
