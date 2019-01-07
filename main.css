@@ -210,7 +210,6 @@ body{
 
 
 
-
 /* FIXED BACKGROUND */
 .paralax1{
   background-image: url("/images/miikaart3.png");
@@ -219,7 +218,6 @@ body{
   background-size:cover;
   padding-bottom:20px;
 }
-
 
 
 .social-media{
@@ -372,6 +370,11 @@ textarea{
     background-color:rgba(250,231,231);
     padding:5%;
   }
+
+  .about-image{
+    text-align:center;
+  }
+  
   .title{
     padding-left:1rem;
   }
