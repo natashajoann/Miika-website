@@ -211,6 +211,7 @@ body{
 .text-box span{
   position: absolute;
    bottom: 0;
+   left:0;
 }
 
 /* FIXED BACKGROUND */
