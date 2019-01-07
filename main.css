@@ -197,6 +197,7 @@ body{
   margin-right:-2rem;
   z-index:2;
   padding:2rem;
+  padding-top:63px;
 }
 
 .section-heading{
@@ -204,15 +205,17 @@ body{
   padding-bottom:5%;
 }
 
-/* .text-box{
-  position:relative;
+/* .email{
+  padding-top:39px;
+} */
+
+.email{
+  position:absolute;
+  background-color:rgba(255, 255, 255, 0.7)
+  border-radius:5px;
+  padding:5px;
 }
 
-.text-box span{
-  position: absolute;
-   bottom: 0;
-   left:0;
-} */
 
 /* FIXED BACKGROUND */
 .paralax1{
