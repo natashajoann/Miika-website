@@ -87,22 +87,25 @@ a, p, h2, h4, h3{
 body{
   padding-top:15px;
 }
-.title a{
+/* .title a{
   font-size: 60px;
   width:100%;
   font-family: 'Shrikhand', cursive;
   text-decoration: none;
   color: rgb(60,60,60);
   transition: 0.5s;
-}
+} */
 
 .title{
   padding-left:30px;
+  background-image:url("/images/logo2.png");
+  background-position:center;
+  background-size:cover;
 }
 
-.title a:hover{
+/* .title a:hover{
   color:#FE5BAC;
-}
+} */
 
 .space-around{
   display:flex;
