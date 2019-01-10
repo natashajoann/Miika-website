@@ -362,7 +362,7 @@ textarea{
     padding: 0 2rem;
   }
 
-  .about-image{
+  .about-image div{
     padding:21%;
     background-size:cover;
     background-position:center;
