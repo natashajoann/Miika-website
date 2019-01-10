@@ -225,12 +225,16 @@ span{
   z-index:5;
 }
 
-.social-icon a{
+.social-icon a,{
   background-color:#FE5BAC;
   padding:5px;
   border-radius:5px;
   color:white;
   font-size:30px;
+}
+
+.footer-icons a, .legal-text h5{
+  color:#FE5BAC;
 }
 
 .fa{
