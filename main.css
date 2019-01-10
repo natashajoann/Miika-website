@@ -364,9 +364,9 @@ textarea{
 
   .about-image div{
     padding:21%;
-    background-size:cover;
-    background-position:center;
     background-image:url("/images/Miikaface.png");
+    /* background-size:cover;
+    background-position:center; */
   }
 
   .aboutbox{
