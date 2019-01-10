@@ -363,7 +363,10 @@ textarea{
   }
 
   .about-image{
-    margin:auto;
+    /* margin:auto; */
+    background-size:cover;
+    background-position:center;
+    background-image:url("/images/Miikaface.png");
 }
 
   .aboutbox{
