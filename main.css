@@ -306,7 +306,7 @@ h3 {
 /* contact */
 .contact{
   padding:30px;
-  background-color: rgba(250,250,250,0.2)
+  background-color: rgba(250,250,250,0.2);
 }
 
 input{
@@ -363,7 +363,6 @@ textarea{
   }
 
   .about-image div{
-    padding:21%;
     background-image:url("/images/Miikaface.png");
     /* background-size:cover;
     background-position:center; */
