@@ -363,11 +363,11 @@ textarea{
   }
 
   .about-image{
-    /* margin:auto; */
+    padding:21%;
     background-size:cover;
     background-position:center;
     background-image:url("/images/Miikaface.png");
-}
+  }
 
   .aboutbox{
     background-color:rgba(250,231,231);
