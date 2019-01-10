@@ -332,6 +332,9 @@ h3 {
 
   .title{
     padding-left:1rem;
+    background-image:url("/images/logot2");
+    background-position:center;
+    background-size:cover;
   }
 
   .title a{
