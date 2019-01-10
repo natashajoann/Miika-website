@@ -208,7 +208,11 @@ body{
   padding-top:39px;
 }
 
-
+.about-image{
+  background-image:url("/images/Miikaface.png");
+  background-position:center;
+  background-size:cover;
+}
 
 /* FIXED BACKGROUND */
 .paralax1{
@@ -303,46 +307,6 @@ h3 {
 }
 
 
-/* contact */
-.contact{
-  padding:30px;
-  background-color: rgba(250,250,250,0.2);
-}
-
-input{
-  width:50%;
-  margin:5px;
-  font-size:15px;
-  padding:2px;
-  box-sizing:content-box;
-}
-.space{
-  width:100%;
-}
-
-textarea{
-  width:50%;
-  padding: 2px;
-  margin: 0 0 0.5rem;
-  resize:none;
-  padding-bottom: 5rem;
-  border: 1px solid rgb(100,100,100);
-  font-size: 15px;
-  margin:5px;
-}
-
-.contact-button{
-  width:25%;
-  font-size:11px;
-}
-
-.contact-button:hover{
-  background-color:#a875be;
-  color:white;
-  border-radius:.25rem;
-  font-size:11px;
-}
-
 /* Media Queries */
 @media (max-width: 768px){
   .home-menu a {
@@ -362,20 +326,11 @@ textarea{
     padding: 0 2rem;
   }
 
-  .about-image div{
-    background-image:url("/images/Miikaface.png");
-    /* background-size:cover;
-    background-position:center; */
-  }
 
   .aboutbox{
     background-color:rgba(250,231,231);
     padding:5%;
   }
-
-  /* .about-image{
-    text-align:center;
-  } */
 
   .title{
     padding-left:1rem;
