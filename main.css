@@ -208,6 +208,10 @@ body{
   padding-top:39px;
 }
 
+span{
+  font-weight: bold;
+}
+
 .about-image{
   background-image:url("/images/Miikaface.png");
   background-position:center;
