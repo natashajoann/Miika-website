@@ -311,9 +311,8 @@ h3 {
   }
 
   .home-menu{
-    padding-left:9rem;
-    display:block;
-    padding-right:1rem;
+    padding:0rem 1rem 0rem 9rem;
+    display:block;    
   }
 
 
