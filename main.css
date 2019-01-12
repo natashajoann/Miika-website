@@ -97,7 +97,7 @@ body{
 } */
 
 .title{
-  padding-left:30px;
+  padding-left:4rem 4rem 0 4rem;
   background-image:url("/images/logo2.png");
   background-position:center;
   background-size:cover;
