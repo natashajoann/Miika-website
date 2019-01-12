@@ -87,25 +87,15 @@ a, p, h2, h4, h3{
 body{
   padding-top:15px;
 }
-/* .title a{
-  font-size: 60px;
-  width:100%;
-  font-family: 'Shrikhand', cursive;
-  text-decoration: none;
-  color: rgb(60,60,60);
-  transition: 0.5s;
-} */
+
 
 .title{
-  padding-left:4rem 4rem 0 4rem;
+  padding:4rem;
   background-image:url("/images/logo2.png");
   background-position:center;
   background-size:cover;
 }
 
-/* .title a:hover{
-  color:#FE5BAC;
-} */
 
 .space-around{
   display:flex;
@@ -113,7 +103,7 @@ body{
 }
 
 .home-menu{
-  padding-top:2.5rem;
+  padding-top:4.5rem;
 }
 .home-menu a {
   text-decoration:none;
@@ -137,7 +127,7 @@ body{
 }
 
 .slide1{
-  background-image: url("/images/miikaart7.jpg");
+  background-image: url("/images/_MG_0714");
   width:100vw;
   height: 89vh;
   background-position:center;
@@ -145,7 +135,7 @@ body{
 }
 
 .slide2{
-  background-image: url("/images/miikaart1.png");
+  background-image: url("/images/_MG_0720");
   width:100vw;
   height: 89vh;
   background-position:center;
@@ -153,7 +143,7 @@ body{
 }
 
 .slide3{
-  background-image: url("/images/miikaart5.png");
+  background-image: url("/images/_MG_0723");
   width:100vw;
   height: 89vh;
   background-position:center;
@@ -205,14 +195,14 @@ span{
 }
 
 .about-image{
-  background-image:url("/images/Miikaface.png");
+  background-image:url("/images/0.jpg");
   background-position:center;
   background-size:cover;
 }
 
 /* FIXED BACKGROUND */
 .paralax1{
-  background-image: url("/images/miikaart3.png");
+  background-image: url("/images/_MG_0708.jpg");
   background-attachment:fixed;
   background-position: top left;
   background-size:cover;
@@ -338,6 +328,7 @@ h3 {
     background-image:url("/images/logo2.png");
     background-position:center;
     background-size:cover;
+    z-index: 5;
   }
 
 
