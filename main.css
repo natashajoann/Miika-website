@@ -107,7 +107,6 @@ body{
 }
 .home-menu a {
   text-decoration:none;
-  /* padding:1rem 5%; */
   font-size:15px;
   color: rgb(60,60,60);
   border-bottom:2px solid white;
@@ -127,7 +126,7 @@ body{
 }
 
 .slide1{
-  background-image: url("/images/_MG_0714");
+  background-image: url("/images/_MG_0714.jpg");
   width:100vw;
   height: 89vh;
   background-position:center;
@@ -135,7 +134,7 @@ body{
 }
 
 .slide2{
-  background-image: url("/images/_MG_0720");
+  background-image: url("/images/_MG_0720.jpg");
   width:100vw;
   height: 89vh;
   background-position:center;
@@ -143,7 +142,7 @@ body{
 }
 
 .slide3{
-  background-image: url("/images/_MG_0723");
+  background-image: url("/images/_MG_0723.jpg");
   width:100vw;
   height: 89vh;
   background-position:center;
