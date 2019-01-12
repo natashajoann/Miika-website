@@ -311,9 +311,9 @@ h3 {
   }
 
   .home-menu{
-    padding:0;
+    padding-left:9rem;
     display:block;
-    padding: 0 1rem;
+    padding-right:1rem;
   }
 
 
@@ -324,10 +324,10 @@ h3 {
 
   .title{
     padding:4rem;
+    padding-left:0.5rem;
     background-image:url("/images/logo2.png");
     background-position:center;
     background-size:cover;
-    z-index: 5;
   }
 
 
