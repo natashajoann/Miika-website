@@ -334,15 +334,12 @@ h3 {
   }
 
   .title{
-    padding-left:1rem;
+    padding:4rem;
     background-image:url("/images/logo2.png");
     background-position:center;
     background-size:cover;
   }
 
-  .title a{
-    font-size:45px;
-  }
 
   .text-box{
     margin:auto;
