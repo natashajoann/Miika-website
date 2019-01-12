@@ -201,7 +201,7 @@ span{
 
 /* FIXED BACKGROUND */
 .paralax1{
-  background-image: url("/images/_MG_0708.jpg");
+  background-image: url("/images/0.jpg");
   background-attachment:fixed;
   background-position: top left;
   background-size:cover;
