@@ -74,7 +74,7 @@ html{
 
 /* fonts */
 
-h1{
+h1, .main-title{
   font-family: 'Shrikhand', cursive;
 }
 
