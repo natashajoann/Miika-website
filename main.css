@@ -165,9 +165,8 @@ body{
 
 /* About Me */
 .aboutbox{
-  margin:auto;
   padding:5%;
-  padding-left:8%;
+  padding-left:2%;
 }
 
 .text-box{
