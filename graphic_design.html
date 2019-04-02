@@ -1,0 +1,35 @@
+---
+layout: art-gallery
+title: Miika Kivilo|Graphic Design
+featured-gallery:
+  - featured_image:
+    heading:
+  - featured_image:
+    heading:
+  - featured_image:
+    heading: 
+  - featured_image:
+    heading:
+---
+
+<section class="featured-gallery grid" id="featured">
+  <div class="col-12 section-heading centered"> <h3> Painting</h3> </div>
+
+  {% for item in page.featured-gallery %}
+
+  <div class="col-4_xs-12-middle gallery-item">
+    <a href="{{item.featured_image}}" data-lightbox="featured" data-title="{{item.heading}}">
+      <div style="background-image:url({{item.featured_image}})" class="gallery-image">
+        <div class="overlay"></div>
+      </div>
+    </a>
+  </div>
+
+  {% endfor %}
+
+  {% for item in page.featured-gallery offset:8 %}
+
+  <a href="{{item.featured_image}}" data-lightbox="featured" data-title="{{item.heading}}"></a>
+
+  {% endfor %}
+</section>
