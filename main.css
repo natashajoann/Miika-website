@@ -267,6 +267,14 @@ h3 {
     display:block;
   }
 
+  .mobil-menu img{
+    width:30%;
+  }
+
+  .mobil-menu{
+    padding:10px 20px 0;
+  }
+
   .hamburger__container:focus{
   outline:none;
 }
