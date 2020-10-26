@@ -102,6 +102,10 @@ body{
   justify-content:space-around;
 }
 
+.menu-main{
+  padding-left:10px;
+}
+
 .home-menu{
   padding-top:2rem;
   padding-left:20px;
