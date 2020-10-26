@@ -171,14 +171,16 @@ span{
 }
 
 .social-icon a{
-  padding: 20px;
-  border-radius: 5px;
-  background-color: #fae0ec;
-  color:white;
-  font-size: 30px;
-  text-align: center;
-  justify-content: center;
-  display: flex;
+  padding: 3px;
+      border-radius: 5px;
+      background-color: #fae0ec;
+      color: #fff;
+      font-size: 30px;
+      text-align: center;
+      justify-content: center;
+      display: flex;
+      width: 7%;
+      margin: auto;
 }
 
 .footer-icons a, .legal-text h5{
@@ -453,6 +455,7 @@ h3 {
 
     li{
       list-style:none;
+      text-align:center;
     }
 
     li a{
@@ -483,10 +486,17 @@ h3 {
     display:block;
   }
 
+  .about-img{
+    order:-1;
+  }
 
   .aboutbox{
-    background-color:rgba(250,231,231);
-    padding:5%;
+    padding:0;
+  }
+
+  .text-box{
+    text-align:center;
+    padding:3rem;
   }
 
   .title{
