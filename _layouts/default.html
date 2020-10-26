@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <head>
-  <title> Miika Kivilo </title>
-  <!-- These are my css links, always put your own css last -->
   <!-- GOOGLE FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Quicksand|Shrikhand" rel="stylesheet">
   <!-- viewport  -->
@@ -13,12 +11,35 @@
   <!-- lightbox -->
   <link href="/lightbox.min.css" rel="stylesheet">
   <!-- Favicon -->
-  <link rel="shortcut icon" type="image/png" href="favicon.ico">
+  <link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
+  <!-- OG Tags -->
+    <title> Miika Kivilo </title>
+    <meta property="og:title" content="Miika Kivilo"/>
+    <meta property="og:url" content="https://miikakiviloart.com"/>
+    <meta property="og:image" content="/images/favicon.png"/>
+    <meta property="og:site_name" content="https://miikakiviloart.com"/>
+    <meta property="og:description"
+          content=""/>
+    <meta name="keywords" content=""/>
   <!-- my css file -->
   <link href="/main.css" rel="stylesheet">
 </head>
 
 <body>
+  <header class="grid art-nav">
+    <a href="/" class="col-2"><div class="title"></div></a>
+
+    <div class="col-10 home-menu space-around">
+      <a href="/">Home</a>
+      <a href="/about"> About Me</a>
+      <a href="/graphic_design">Graphic Design</a>
+      <a href="/sculpture">Sculpture</a>
+      <a href="/painting">Painting</a>
+    </div>
+
+
+  </header>
+
 
   {{content}}
 
