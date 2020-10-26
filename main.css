@@ -103,7 +103,7 @@ body{
 }
 
 .home-menu{
-  padding-top:4.5rem;
+  padding-top:2rem;
   padding-left:20px;
 }
 .home-menu a {
@@ -118,24 +118,15 @@ body{
 }
 
 
-.text{
-  color:white;
-  font-size:14px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-}
-
 
 /* About Me */
 .aboutbox{
-  padding:5%;
+  padding:2rem;
   padding-left:0;
 }
 
 .text-box{
-  padding:2rem;
+  padding:6rem 2rem 2rem;
 }
 
 .section-heading{
