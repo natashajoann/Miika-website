@@ -450,6 +450,9 @@ h3 {
 
     li{
       list-style:none;
+    }
+
+    li a{
       font-family: 'Shrikhand', cursive;
       font-size:30px;
       text-align:center;
