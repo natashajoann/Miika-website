@@ -1,5 +1,5 @@
 ---
-layout: art-gallery
+layout: default
 title: Miika Kivilo|Art Instalations
 featured-gallery:
   - featured_image: /images/miikaart1.jpg
@@ -45,11 +45,10 @@ featured-gallery:
 ---
 
 <section class="featured-gallery grid" id="featured">
-  <div class="col-12 section-heading centered"> <h3> Installations</h3></div>
 
   {% for item in page.featured-gallery %}
 
-  <div class="col-4_xs-12-middle gallery-item">
+  <div class="col-6_xs-12-middle gallery-item">
     <a href="{{item.featured_image}}" data-lightbox="featured" data-title="{{item.heading}}">
       <div style="background-image:url({{item.featured_image}})" class="gallery-image">
         <div class="overlay"></div>
