@@ -104,18 +104,17 @@ body{
 
 .home-menu{
   padding-top:4.5rem;
+  padding-left:20px;
 }
 .home-menu a {
   text-decoration:none;
   font-size:15px;
   color: rgb(60,60,60);
-  border-bottom:2px solid white;
   transition: 0.2s;
 }
 
 .home-menu a:hover{
   color:#FE5BAC;
-  border-bottom:2px solid #FE5BAC;
 }
 
 
