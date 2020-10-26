@@ -458,6 +458,10 @@ h3 {
       text-align:center;
     }
 
+    li a:hover{
+      color:#fae0ec;
+    }
+
     .mobile-menu {
         display: -ms-flexbox;
         /* display: -webkit-flex;
