@@ -238,7 +238,7 @@ h3 {
 }
 
 .overlay{
-  background-color: rgba(252, 138, 195,0.5);
+  background-color: #fae0ecb0;
   opacity:0;
   height:100%;
   width:100%;
