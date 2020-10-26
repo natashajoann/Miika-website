@@ -131,16 +131,10 @@ body{
 /* About Me */
 .aboutbox{
   padding:5%;
-  padding-left:2%;
+  padding-left:0;
 }
 
 .text-box{
-  background-color:rgba(250,231,231,0.7);
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left:2rem;
-  margin-right:-2rem;
-  z-index:2;
   padding:2rem;
 }
 
@@ -161,15 +155,6 @@ span{
   background-image:url("/images/0.jpg");
   background-position:center;
   background-size:cover;
-}
-
-/* FIXED BACKGROUND */
-.paralax1{
-  background-image: url("/images/miikaart2.jpg");
-  background-attachment:fixed;
-  background-position: top left;
-  background-size:cover;
-  padding-bottom:20px;
 }
 
 
