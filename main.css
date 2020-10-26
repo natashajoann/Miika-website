@@ -118,40 +118,6 @@ body{
 }
 
 
-.slideshow-container{
-  position:relative;
-  margin:auto;
-
-}
-
-.slide1{
-  background-image: url("/images/miikaart8.jpg");
-  width:100vw;
-  height: 89vh;
-  background-position:center;
-  background-size:cover;
-}
-
-.slide2{
-  background-image: url("/images/miikaart11.jpg");
-  width:100vw;
-  height: 89vh;
-  background-position:center;
-  background-size:cover;
-}
-
-.slide3{
-  background-image: url("/images/miikaart12.jpg");
-  width:100vw;
-  height: 89vh;
-  background-position:center;
-  background-size:cover;
-}
-
-.mySlides{
-  display:none;
-}
-
 .text{
   color:white;
   font-size:14px;

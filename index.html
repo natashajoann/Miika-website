@@ -2,6 +2,20 @@
 layout: default
 title: Miika Kivilo Art
 featured-gallery:
+  - featured_image: /images/miikaart1.jpg
+    heading: Inside and Closer
+  - featured_image: /images/miikaart2.jpg
+    heading: Inside and Closer
+  - featured_image: /images/miikaart3.jpg
+    heading: Inside and Closer
+  - featured_image: /images/miikaart4.jpg
+    heading: Inside and Closer
+  - featured_image: /images/miikaart5.jpg
+    heading: Inside and Closer
+  - featured_image: /images/miikaart6.jpg
+    heading: Inside and Closer
+  - featured_image: /images/miikaart7.jpg
+    heading: Inside and Closer
   - featured_image: /uploads/miika1.jpg
     heading: Mailbox
   - featured_image: /uploads/mkivilophoto7.jpg
@@ -15,9 +29,9 @@ featured-gallery:
 
 <section class="index featured-gallery grid" id="featured">
 
-  {% for item in page.featured-gallery limit: 4 %}
+  {% for item in page.featured-gallery %}
 
-  <div class="col-4_xs-12-middle gallery-item">
+  <div class="col-6_xs-12-middle gallery-item">
     <a href="{{item.featured_image}}" data-lightbox="featured" data-title="{{item.heading}}">
       <div style="background-image:url({{item.featured_image}})" class="gallery-image">
         <div class="overlay"></div>
