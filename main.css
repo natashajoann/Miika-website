@@ -106,6 +106,10 @@ body{
   padding-left:10px;
 }
 
+.header, .wrapper, .nav, .nav__container, .hamburger__container{
+  display:none;
+}
+
 .home-menu{
   padding-top:2rem;
   padding-left:20px;
@@ -253,6 +257,193 @@ h3 {
     padding-top:8px;
     display:block;
   }
+
+  header{
+    display:none;
+  }
+
+  .header, .wrapper, .nav, .nav__container, .hamburger__container{
+    display:block;
+  }
+
+  .hamburger__container:focus{
+  outline:none;
+}
+
+.hamburger__container {
+    display: block;
+    float: right;
+    padding: 1rem;
+    margin: -1rem;
+    cursor: pointer;
+    margin-left: auto;
+    position: absolute;
+    top: 2.5vh;
+    right: 2vh;
+    background-color:transparent;
+    border:none;
+}
+
+.hamburger {
+    width: 1.20rem;
+    height: 0.9375rem;
+    /* position: relative; */
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: rotate(0deg); }
+.hamburger i {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 0.1875rem;
+    background: #979797;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: all 0.25s cubic-bezier(0.215, 0.61, 0.355, 1); }
+
+    .index-hamburger i {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 0.1875rem;
+        background: white;
+        opacity: 1;
+        left: 0;
+        transform: rotate(0deg);
+        transition: all 0.25s cubic-bezier(0.215, 0.61, 0.355, 1); }
+
+.hamburger i:nth-of-type(1) {
+    top: 0;
+    transform-origin: left center; }
+.hamburger i:nth-of-type(2) {
+    top: 0.375rem;
+    transform-origin: left center; }
+.hamburger i:nth-of-type(3) {
+    top: 0.75rem;
+    transform-origin: left center; }
+.hamburger.open i:nth-of-type(1) {
+    transform: rotate(45deg) translate(0, -0.0625rem);
+    background-color: #979797;
+  }
+.hamburger.open i:nth-of-type(2) {
+    opacity: 0;
+    width: 0%; }
+.hamburger.open i:nth-of-type(3) {
+    transform: rotate(-45deg) translate(0, 0.0625rem);
+  background-color: #979797;
+}
+
+/* Index page  */
+.index-hamburger {
+    width: 1.20rem;
+    height: 0.9375rem;
+    /* position: relative; */
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: rotate(0deg); }
+.index-hamburger i {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 0.1875rem;
+    background: white;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: all 0.25s cubic-bezier(0.215, 0.61, 0.355, 1); }
+.index-hamburger i:nth-of-type(1) {
+    top: 0;
+    transform-origin: left center; }
+.index-hamburger i:nth-of-type(2) {
+    top: 0.375rem;
+    transform-origin: left center; }
+.index-hamburger i:nth-of-type(3) {
+    top: 0.75rem;
+    transform-origin: left center; }
+.index-hamburger.open i:nth-of-type(1) {
+    transform: rotate(45deg) translate(0, -0.0625rem);
+    background-color: black;
+  }
+.index-hamburger.open i:nth-of-type(2) {
+    opacity: 0;
+    width: 0%; }
+.index-hamburger.open i:nth-of-type(3) {
+    transform: rotate(-45deg) translate(0, 0.0625rem);
+  background-color: black;
+}
+
+.code {
+    font-weight: 400;
+    font-family: monospace,monospace;
+    padding: 0 8px;
+    background: #e0e0e0;
+}
+
+.content {
+    padding: 50px 20px;
+}
+
+#content {
+    opacity: 0.7;
+}
+
+
+
+
+    /* html.noscroll {
+        overflow: hidden;
+    } */
+
+
+    body.noscroll {
+        overflow: visible;
+        height: 100%;
+    }
+
+    .logo, .hamburger__container {
+        /* position: relative; */
+        z-index: 9999;
+    }
+
+    .nav {
+        width: 60% !important;
+        position: fixed;
+        top: 0;
+        right: -120%;
+        background-color: #fafafa;
+        z-index: 8;
+        padding-top: 3.5rem;
+        height: 100%;
+        transition: 2s;
+        line-height: 37px;
+    }
+
+
+
+    .open {
+        opacity: 1;
+        right: 0;
+    }
+
+    .nav__container {
+        position: absolute;
+        padding: 10rem 20px 30px;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        /* These 2 below are all the magic: */
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .mobile-menu {
+        display: -ms-flexbox;
+        /* display: -webkit-flex;
+        display: flex; */
+        -webkit-align-items: center;
+        -ms-align-items: center;
+        align-items: center;
+    }
 
   .slide1, .slide2, .slide3{
     height:80vh;
