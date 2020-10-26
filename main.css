@@ -170,11 +170,14 @@ span{
 }
 
 .social-icon a{
-  background-color:#FE5BAC;
-  padding:5px;
-  border-radius:5px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fae0ec;
   color:white;
-  font-size:30px;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
 }
 
 .footer-icons a, .legal-text h5{
