@@ -106,7 +106,8 @@ body{
   padding-left:10px;
 }
 
-.header, .wrapper, .nav, .nav__container, .hamburger__container{
+
+.header, .wrapper, .nav, .nav__container, .hamburger__container, .mobil-menu{
   display:none;
 }
 
@@ -262,7 +263,7 @@ h3 {
     display:none;
   }
 
-  .header, .wrapper, .nav, .nav__container, .hamburger__container{
+  .header, .wrapper, .nav, .nav__container, .hamburger__container, .mobil-menu{
     display:block;
   }
 
@@ -405,7 +406,7 @@ h3 {
     }
 
     .nav {
-        width: 60% !important;
+        width: 100% !important;
         position: fixed;
         top: 0;
         right: -120%;
@@ -434,6 +435,13 @@ h3 {
         /* These 2 below are all the magic: */
         overflow-y: auto;
         -webkit-overflow-scrolling: touch;
+    }
+
+    li{
+      list-style:none;
+      font-family: 'Shrikhand', cursive;
+      font-size:30px;
+      text-align:center;
     }
 
     .mobile-menu {
