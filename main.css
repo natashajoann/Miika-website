@@ -123,8 +123,9 @@ body{
 }
 
 .home-menu a:hover{
-  color:#FE5BAC;
+  color:#FAE0EC;
 }
+
 
 
 
@@ -181,7 +182,7 @@ span{
 }
 
 .footer-icons a, .legal-text h5{
-  color:#FE5BAC;
+  color:#FAE0EC;
 }
 
 .fa{
@@ -192,7 +193,7 @@ span{
   margin:auto;
   margin-top:230px;
   padding:9px;
-  background-color:#FE5BAC;
+  background-color:black;
   color:white;
 }
 
