@@ -501,7 +501,7 @@ h3 {
   padding-bottom:10px;
 }
 
-.activate, .accordion:hover {
+.active, .accordion:hover {
   color: #c9e1d8;
   border-bottom: 3px solid #c9e1d8;
 }
@@ -514,7 +514,7 @@ h3 {
   margin-top:-28px;
 }
 
-.activate:after {
+.active:after {
   content: "\2212";
   color: #c9e1d8;
 }
