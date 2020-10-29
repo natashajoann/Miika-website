@@ -3,11 +3,11 @@
     {% for item in page.featured-gallery %}
 
     <div class="col-6_xs-12 gallery-item">
-      <div style="background-image:url({{block.featured_image}})" class="gallery-image"></div>
+      <img src="{{block.featured_image}}">
     </div>
 
     <div class="col-6_xs-12 gallery-item">
-      <div style="background-image:url({{block.second_featured_image}})" class="gallery-image"></div>
+      <img src="{{block.second_featured_image}}">
     </div>
 
     {% endfor %}
