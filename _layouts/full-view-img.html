@@ -1,0 +1,26 @@
+---
+layout: default
+title: Lightroom Test
+featured-gallery:
+---
+
+<section class="featured-gallery grid" id="featured">
+  {% for item in page.featured-gallery %}
+
+  <div class="col-6_xs-12-middle gallery-item">
+    <a href="{{item.featured_image}}" data-lightbox="featured" data-title="{{item.heading}}" class="gallery-image">
+      <div style="position:relative;">
+        <img src="{{item.featured_image}}">
+        <div class="img-overlay"></div>
+      </div>
+    </a>
+  </div>
+
+  {% endfor %}
+
+  {% for item in page.featured-gallery offset:8 %}
+
+  <a href="{{item.featured_image}}" data-lightbox="featured" data-title="{{item.heading}}"></a>
+
+  {% endfor %}
+</section>
