@@ -260,7 +260,7 @@ span{
   margin:auto;
 } */
 
-.gallery-image{
+.gallery-img{
   text-align:center;
 }
 
@@ -283,14 +283,14 @@ h3 {
   padding-bottom:30px;
 }
 
-/*
+
 .gallery-image{
   padding:40%;
   background-size: cover;
   background-position: center;
   position:relative;
   height:60vh;
-} */
+}
 
 .overlay{
   background-color: #fae0ecb0;
