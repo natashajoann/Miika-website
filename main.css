@@ -278,7 +278,7 @@ h3 {
   padding-bottom:30px;
 }
 
-/* 
+/*
 .gallery-image{
   padding:40%;
   background-size: cover;
@@ -299,6 +299,24 @@ h3 {
 }
 
 .overlay:hover{
+  opacity:1;
+  transition: all 0.5s;
+}
+
+/* img overlay */
+
+.img-overlay{
+  background-color: #fae0ecb0;
+  opacity:0;
+  height:100%;
+  width:100%;
+  z-index:3;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.img-overlay:hover{
   opacity:1;
   transition: all 0.5s;
 }
