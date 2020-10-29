@@ -65,4 +65,12 @@ _array_structures:
         _id: image-view
         block-class:
         featured_image:
-        second_featured_image: 
+        second_featured_image:
+    - label: Image Gallery
+      icon: ballot
+      value:
+        _id: image-gallery
+        name: Image Gallery
+        block-class:
+        heading_html:
+        gallery-images: []
