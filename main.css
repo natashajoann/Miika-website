@@ -249,8 +249,13 @@ span{
 }
 
 /* LIGHTBOX GALLERY */
-.gallery-image{
+/* .gallery-image{
   height:10vh;
+} */
+
+.gallery-image img{
+  width:50%;
+  margin:auto;
 }
 
 .featured-gallery{

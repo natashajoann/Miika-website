@@ -1,0 +1,53 @@
+---
+layout: art-gallery
+title: Lightroom Test
+featured-gallery:
+  - featured_image: /uploads/Collections/vday2.gif
+    heading:
+  - featured_image: /uploads/Collections/newmobileshockwave2.png
+    heading:
+  - featured_image: /uploads/Collections/MASKNEW2.jpg
+    heading:
+  - featured_image: /uploads/Collections/bratty2.gif
+    heading:
+  - featured_image: /uploads/Collections/BESTIE2.jpg
+    heading:
+  - featured_image: /uploads/Collections/STREETSAVVY2.jpg
+    heading:
+  - featured_image: /uploads/Collections/ravebooty2.gif
+    heading:
+  - featured_image: /uploads/Collections/drip2.gif
+    heading:
+  - featured_image: /uploads/Collections/SPARKL2.jpg
+    heading:
+  - featured_image: /uploads/Collections/SHOESMOBILE copy.jpg
+    heading:
+  - featured_image: /uploads/Collections/splash2.jpg
+    heading:
+  - featured_image: /uploads/Collections/runaway2.jpg
+    heading:
+  - featured_image: /uploads/Collections/pixie2.jpg
+    heading:
+  - featured_image: /uploads/Collections/pasteldreams2.jpg
+    heading:
+---
+
+<section class="featured-gallery grid" id="featured">
+  {% for item in page.featured-gallery %}
+
+  <div class="col-6_xs-12-middle gallery-item">
+    <a href="{{item.featured_image}}" data-lightbox="featured" data-title="{{item.heading}}" class="gallery-image">
+      <img src="{{item.featured_image}}">
+        <div class="overlay"></div>
+      </div>
+    </a>
+  </div>
+
+  {% endfor %}
+
+  {% for item in page.featured-gallery offset:8 %}
+
+  <a href="{{item.featured_image}}" data-lightbox="featured" data-title="{{item.heading}}"></a>
+
+  {% endfor %}
+</section>
