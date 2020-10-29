@@ -309,7 +309,7 @@ h3 {
 .img-overlay{
   background-color: #fae0ecb0;
   opacity:0;
-  height:99%;
+  height:100%;
   width:80%;
   z-index:3;
   position:absolute;
