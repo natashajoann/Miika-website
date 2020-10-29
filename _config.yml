@@ -72,14 +72,6 @@ _array_structures:
         _id: image-gallery
         name: Image Gallery
         block-class:
-        columns: []
-  columns:
-  label: Column
-  icon: collections
-  value:
-    size:
-    class:
-    column_html:
         gallery-images: []
   gallery-images:
   label: Gallery Image
