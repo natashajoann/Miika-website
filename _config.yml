@@ -74,3 +74,8 @@ _array_structures:
         block-class:
         heading_html:
         gallery-images: []
+  gallery-images:
+  label: Gallery Image
+  icon: collections
+  value:
+    featured_image:
