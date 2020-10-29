@@ -164,6 +164,7 @@ body{
   transition: max-height 0.9s ease-out;
   width:100%;
   margin:auto;
+  padding-left:11px;
 }
 
 
@@ -254,7 +255,7 @@ span{
 } */
 
 .gallery-image img{
-  width:50%;
+  width:80%;
   margin:auto;
 }
 
