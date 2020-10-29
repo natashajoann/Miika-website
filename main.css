@@ -308,8 +308,8 @@ h3 {
 .img-overlay{
   background-color: #fae0ecb0;
   opacity:0;
-  height:100%;
-  width:100%;
+  height:99%;
+  width:88%;
   z-index:3;
   position:absolute;
   top:0;
