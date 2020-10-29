@@ -1,9 +1,8 @@
 <section class="relative image-gallery grid-center {{block-class}} padded">
 
+    {% for col in block.columns %}
 
-    {% for image in include.block.gallery-images %}
-
-      {% for col in block.columns %}
+      {% for image in include.block.gallery-images %}
 
       <div class="{{col.size}} {{col.class}}">
         <img src="{{image.featured_image}}">

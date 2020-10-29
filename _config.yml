@@ -73,12 +73,6 @@ _array_structures:
         name: Image Gallery
         block-class:
         columns: []
-        gallery-images: []
-  gallery-images:
-  label: Gallery Image
-  icon: collections
-  value:
-    featured_image:
   columns:
   label: Column
   icon: collections
@@ -86,3 +80,9 @@ _array_structures:
     size:
     class:
     column_html:
+        gallery-images: []
+  gallery-images:
+  label: Gallery Image
+  icon: collections
+  value:
+    featured_image:
