@@ -64,4 +64,5 @@ _array_structures:
       value:
         _id: image-view
         block-class:
-        featured_image: 
+        featured_image:
+        second_featured_image: 

@@ -3,7 +3,11 @@
     {% for item in page.featured-gallery %}
 
     <div class="col-6_xs-12 gallery-item">
-      <div style="background-image:url({{item.featured_image}})" class="gallery-image col-6_xs-12-middle"></div>
+      <div style="background-image:url({{item.featured_image}})" class="gallery-image"></div>
+    </div>
+
+    <div class="col-6_xs-12 gallery-item">
+      <div style="background-image:url({{item.second_featured_image}})" class="gallery-image"></div>
     </div>
 
     {% endfor %}
