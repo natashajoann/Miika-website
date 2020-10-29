@@ -3,13 +3,13 @@
 
     {% for image in include.block.gallery-images %}
 
-      <div class="col-4_sm-12 padded-1">
-        <div class="bg-image {{image.image-height}}" style="background-image:url({{image.background_image}})"></div>
-        <div class="margin-top-1 gallery-text">
-          {{image.body-content_html}}
-        </div>
-      </div>
+      {% for col in block.columns %}
 
+      <div class="{{col.size}} {{col.class}}">
+        <img src="{{image.featured_image}}">
+      </div>
       {% endfor %}
+
+    {% endfor %}
 
 </section>

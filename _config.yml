@@ -72,10 +72,17 @@ _array_structures:
         _id: image-gallery
         name: Image Gallery
         block-class:
-        heading_html:
+        columns: []
         gallery-images: []
   gallery-images:
   label: Gallery Image
   icon: collections
   value:
     featured_image:
+  columns:
+  label: Column
+  icon: collections
+  value:
+    size:
+    class:
+    column_html:
