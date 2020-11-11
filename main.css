@@ -140,13 +140,6 @@ body{
   transition: .5s;
   margin: auto;
   color:#3c3c3c;
-  font-family: Shrikhand,cursive !important;
-font-size: 30px;
-text-align: center;
-}
-
-.accordion p{
-  font-family: Shrikhand,cursive !important;
 }
 
 .cc-active a{
@@ -347,6 +340,20 @@ h3 {
     padding-top:8px;
     display:block;
   }
+
+  .panel{
+    text-align: center;
+     }
+     
+.accordion{
+     font-family: Shrikhand,cursive !important;
+   font-size: 30px;
+   text-align: center;
+   }
+
+   .accordion p{
+     font-family: Shrikhand,cursive !important;
+   }
 
   header{
     display:none;
