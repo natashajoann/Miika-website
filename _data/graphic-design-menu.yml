@@ -1,12 +1,12 @@
 ---
 - title: Collections
   url: /graphic_design
-- title: Sales
-  url: /sales
-- title: Newsletters
-  url: /newsletters
 - title: IG Stories
-  url: /ig-stories
+  url: /ig-stories.html
+- title: Newsletters
+  url: /newsletters.html
 - title: Packaging/Misc.
-  url: /misc
+  url: /misc.html
+- title: Sales
+  url: /sales.html
 ---
